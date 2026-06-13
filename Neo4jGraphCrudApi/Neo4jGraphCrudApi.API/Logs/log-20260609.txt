@@ -1,0 +1,201 @@
+2026-06-09 16:04:59.625 +05:30 [INF] User profile is available. Using 'C:\Users\hp\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-09 16:05:00.145 +05:30 [INF] Now listening on: https://localhost:7265
+2026-06-09 16:05:00.181 +05:30 [INF] Now listening on: http://localhost:5250
+2026-06-09 16:05:00.270 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-09 16:05:00.319 +05:30 [INF] Hosting environment: Development
+2026-06-09 16:05:00.324 +05:30 [INF] Content root path: C:\Users\hp\Desktop\Github Projects\neo4j\neo4j-clean-architecture-dotnet\Neo4jGraphCrudApi\Neo4jGraphCrudApi.API
+2026-06-09 16:05:01.685 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7265/swagger - null null
+2026-06-09 16:05:01.923 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7265/swagger - 301 0 null 247.1536ms
+2026-06-09 16:05:01.935 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7265/swagger/index.html - null null
+2026-06-09 16:05:02.114 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7265/swagger/index.html - 200 null text/html;charset=utf-8 178.3774ms
+2026-06-09 16:05:02.124 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7265/swagger/swagger-ui.css - null null
+2026-06-09 16:05:02.125 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7265/_vs/browserLink - null null
+2026-06-09 16:05:02.125 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7265/swagger/swagger-ui-standalone-preset.js - null null
+2026-06-09 16:05:02.125 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7265/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-09 16:05:02.124 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7265/swagger/swagger-ui-bundle.js - null null
+2026-06-09 16:05:02.184 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7265/_framework/aspnetcore-browser-refresh.js - 200 13794 application/javascript; charset=utf-8 59.5713ms
+2026-06-09 16:05:02.194 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2026-06-09 16:05:02.194 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2026-06-09 16:05:02.208 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7265/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 82.4039ms
+2026-06-09 16:05:02.215 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7265/swagger/swagger-ui.css - 200 152034 text/css 91.0984ms
+2026-06-09 16:05:02.300 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2026-06-09 16:05:02.302 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7265/_vs/browserLink - 200 null text/javascript; charset=UTF-8 177.2788ms
+2026-06-09 16:05:02.304 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7265/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 179.8223ms
+2026-06-09 16:05:02.657 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7265/swagger/v1/swagger.json - null null
+2026-06-09 16:05:02.660 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7265/swagger/favicon-32x32.png - null null
+2026-06-09 16:05:02.887 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2026-06-09 16:05:02.889 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7265/swagger/favicon-32x32.png - 200 628 image/png 229.1931ms
+2026-06-09 16:05:02.901 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7265/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 244.1789ms
+2026-06-09 16:05:20.998 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7265/api/Persons - application/json 36
+2026-06-09 16:05:21.008 +05:30 [INF] CORS policy execution failed.
+2026-06-09 16:05:21.010 +05:30 [INF] Request origin https://localhost:7265 does not have permission to access the resource.
+2026-06-09 16:05:21.014 +05:30 [INF] HTTP POST /api/Persons request started
+2026-06-09 16:05:21.113 +05:30 [INF] Executing endpoint 'Neo4jGraphCrudApi.API.Controllers.PersonsController.Create (Neo4jGraphCrudApi.API)'
+2026-06-09 16:05:21.137 +05:30 [INF] Route matched with {action = "Create", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(Neo4jGraphCrudApi.Application.DTOs.CreatePersonDto) on controller Neo4jGraphCrudApi.API.Controllers.PersonsController (Neo4jGraphCrudApi.API).
+2026-06-09 16:05:21.864 +05:30 [INF] Executed action Neo4jGraphCrudApi.API.Controllers.PersonsController.Create (Neo4jGraphCrudApi.API) in 721.352ms
+2026-06-09 16:05:21.866 +05:30 [INF] Executed endpoint 'Neo4jGraphCrudApi.API.Controllers.PersonsController.Create (Neo4jGraphCrudApi.API)'
+2026-06-09 16:05:21.950 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Neo4j.Driver.ClientException: Expected parameter(s): id, name, age
+ ---> Neo4j.Driver.DatabaseException: 42N81: Expected $`id`, $`name` and $`age`, but got $`Age`, $`Id` and $`Name`.
+   --- End of inner exception stack trace ---
+   at Neo4j.Driver.Internal.MessageHandling.ResponsePipelineError.EnsureThrown()
+   at Neo4j.Driver.Internal.Result.ResultCursorBuilder.ConsumeAsync()
+   at Neo4j.Driver.Internal.AsyncSession.DiscardUnconsumedResultAsync()
+   at Neo4j.Driver.Internal.AsyncSession.DisposeSessionResultAsync()
+   at Neo4j.Driver.Internal.AsyncSession.DisposeSessionResultAsync()
+   at Neo4j.Driver.Internal.AsyncSession.<CloseAsync>b__61_0()
+   at Neo4j.Driver.Internal.Logging.DriverLoggerUtil.TryExecuteAsync(INeo4jLogger neo4JLogger, Func`1 func, String message)
+   at Neo4j.Driver.Internal.AsyncSession.DisposeAsyncCore()
+   at Neo4j.Driver.Internal.AsyncQueryRunner.DisposeAsync()
+   at Neo4jGraphCrudApi.Infrastructure.Repositories.PersonRepository.CreateAsync(Person person) in C:\Users\hp\Desktop\Github Projects\neo4j\neo4j-clean-architecture-dotnet\Neo4jGraphCrudApi\Neo4jGraphCrudApi.Infrastructure\Repositories\PersonRepository.cs:line 26
+   at Neo4jGraphCrudApi.Application.Services.PersonService.CreateAsync(CreatePersonDto dto) in C:\Users\hp\Desktop\Github Projects\neo4j\neo4j-clean-architecture-dotnet\Neo4jGraphCrudApi\Neo4jGraphCrudApi.Application\Services\PersonService.cs:line 23
+   at Neo4jGraphCrudApi.API.Controllers.PersonsController.Create(CreatePersonDto dto) in C:\Users\hp\Desktop\Github Projects\neo4j\neo4j-clean-architecture-dotnet\Neo4jGraphCrudApi\Neo4jGraphCrudApi.API\Controllers\PersonsController.cs:line 37
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Neo4jGraphCrudApi.API.Middleware.RequestLoggingMiddleware.InvokeAsync(HttpContext context) in C:\Users\hp\Desktop\Github Projects\neo4j\neo4j-clean-architecture-dotnet\Neo4jGraphCrudApi\Neo4jGraphCrudApi.API\Middleware\RequestLoggingMiddleware.cs:line 27
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-06-09 16:05:22.018 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7265/api/Persons - 500 null text/plain; charset=utf-8 1020.6981ms
+2026-06-09 16:09:20.833 +05:30 [INF] User profile is available. Using 'C:\Users\hp\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-09 16:09:21.174 +05:30 [INF] Now listening on: https://localhost:7265
+2026-06-09 16:09:21.175 +05:30 [INF] Now listening on: http://localhost:5250
+2026-06-09 16:09:21.233 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-09 16:09:21.235 +05:30 [INF] Hosting environment: Development
+2026-06-09 16:09:21.236 +05:30 [INF] Content root path: C:\Users\hp\Desktop\Github Projects\neo4j\neo4j-clean-architecture-dotnet\Neo4jGraphCrudApi\Neo4jGraphCrudApi.API
+2026-06-09 16:09:21.542 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7265/swagger/index.html - null null
+2026-06-09 16:09:21.740 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7265/swagger/index.html - 200 null text/html;charset=utf-8 201.6133ms
+2026-06-09 16:09:21.760 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7265/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-09 16:09:21.760 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7265/_vs/browserLink - null null
+2026-06-09 16:09:21.774 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7265/_framework/aspnetcore-browser-refresh.js - 200 13794 application/javascript; charset=utf-8 14.6292ms
+2026-06-09 16:09:21.813 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7265/_vs/browserLink - 200 null text/javascript; charset=UTF-8 52.6623ms
+2026-06-09 16:09:21.985 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7265/swagger/v1/swagger.json - null null
+2026-06-09 16:09:21.998 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7265/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 13.6619ms
+2026-06-09 16:10:55.672 +05:30 [INF] User profile is available. Using 'C:\Users\hp\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-09 16:10:56.052 +05:30 [INF] Now listening on: https://localhost:7265
+2026-06-09 16:10:56.055 +05:30 [INF] Now listening on: http://localhost:5250
+2026-06-09 16:10:56.109 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-09 16:10:56.115 +05:30 [INF] Hosting environment: Development
+2026-06-09 16:10:56.117 +05:30 [INF] Content root path: C:\Users\hp\Desktop\Github Projects\neo4j\neo4j-clean-architecture-dotnet\Neo4jGraphCrudApi\Neo4jGraphCrudApi.API
+2026-06-09 16:10:57.063 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7265/swagger/index.html - null null
+2026-06-09 16:10:57.462 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7265/swagger/index.html - 200 null text/html;charset=utf-8 402.369ms
+2026-06-09 16:10:57.472 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7265/_vs/browserLink - null null
+2026-06-09 16:10:57.472 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7265/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-09 16:10:57.751 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7265/_framework/aspnetcore-browser-refresh.js - 200 13794 application/javascript; charset=utf-8 279.1072ms
+2026-06-09 16:10:57.781 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7265/_vs/browserLink - 200 null text/javascript; charset=UTF-8 308.8661ms
+2026-06-09 16:10:57.832 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7265/swagger/v1/swagger.json - null null
+2026-06-09 16:10:57.850 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7265/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 17.984ms
+2026-06-09 16:11:19.965 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7265/api/Persons - application/json 36
+2026-06-09 16:11:19.977 +05:30 [INF] CORS policy execution failed.
+2026-06-09 16:11:19.979 +05:30 [INF] Request origin https://localhost:7265 does not have permission to access the resource.
+2026-06-09 16:11:19.983 +05:30 [INF] HTTP POST /api/Persons request started
+2026-06-09 16:11:20.058 +05:30 [INF] Executing endpoint 'Neo4jGraphCrudApi.API.Controllers.PersonsController.Create (Neo4jGraphCrudApi.API)'
+2026-06-09 16:11:20.090 +05:30 [INF] Route matched with {action = "Create", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(Neo4jGraphCrudApi.Application.DTOs.CreatePersonDto) on controller Neo4jGraphCrudApi.API.Controllers.PersonsController (Neo4jGraphCrudApi.API).
+2026-06-09 16:11:20.640 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2026-06-09 16:11:20.645 +05:30 [INF] Executed action Neo4jGraphCrudApi.API.Controllers.PersonsController.Create (Neo4jGraphCrudApi.API) in 549.1773ms
+2026-06-09 16:11:20.647 +05:30 [INF] Executed endpoint 'Neo4jGraphCrudApi.API.Controllers.PersonsController.Create (Neo4jGraphCrudApi.API)'
+2026-06-09 16:11:20.649 +05:30 [INF] HTTP POST /api/Persons responded 204 in 666 ms
+2026-06-09 16:11:20.652 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7265/api/Persons - 204 null null 686.6389ms
+2026-06-09 16:12:39.711 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7265/api/Persons/id: "f70b335a-a6df-4879-9426-9fb97d2d7d95" - null null
+2026-06-09 16:12:39.716 +05:30 [INF] HTTP GET /api/Persons/id:%20%22f70b335a-a6df-4879-9426-9fb97d2d7d95%22 request started
+2026-06-09 16:12:39.720 +05:30 [INF] Executing endpoint 'Neo4jGraphCrudApi.API.Controllers.PersonsController.GetById (Neo4jGraphCrudApi.API)'
+2026-06-09 16:12:39.743 +05:30 [INF] Route matched with {action = "GetById", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Neo4jGraphCrudApi.Application.DTOs.PersonDto]] GetById(System.String) on controller Neo4jGraphCrudApi.API.Controllers.PersonsController (Neo4jGraphCrudApi.API).
+2026-06-09 16:12:39.858 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2026-06-09 16:12:39.874 +05:30 [INF] Executed action Neo4jGraphCrudApi.API.Controllers.PersonsController.GetById (Neo4jGraphCrudApi.API) in 127.6024ms
+2026-06-09 16:12:39.877 +05:30 [INF] Executed endpoint 'Neo4jGraphCrudApi.API.Controllers.PersonsController.GetById (Neo4jGraphCrudApi.API)'
+2026-06-09 16:12:39.878 +05:30 [INF] HTTP GET /api/Persons/id:%20%22f70b335a-a6df-4879-9426-9fb97d2d7d95%22 responded 404 in 161 ms
+2026-06-09 16:12:39.880 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7265/api/Persons/id: "f70b335a-a6df-4879-9426-9fb97d2d7d95" - 404 null application/problem+json; charset=utf-8 179.4651ms
+2026-06-09 16:13:14.663 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7265/api/Persons/f70b335a-a6df-4879-9426-9fb97d2d7d95 - null null
+2026-06-09 16:13:14.673 +05:30 [INF] HTTP GET /api/Persons/f70b335a-a6df-4879-9426-9fb97d2d7d95 request started
+2026-06-09 16:13:14.676 +05:30 [INF] Executing endpoint 'Neo4jGraphCrudApi.API.Controllers.PersonsController.GetById (Neo4jGraphCrudApi.API)'
+2026-06-09 16:13:14.677 +05:30 [INF] Route matched with {action = "GetById", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Neo4jGraphCrudApi.Application.DTOs.PersonDto]] GetById(System.String) on controller Neo4jGraphCrudApi.API.Controllers.PersonsController (Neo4jGraphCrudApi.API).
+2026-06-09 16:13:14.701 +05:30 [INF] Executing OkObjectResult, writing value of type 'Neo4jGraphCrudApi.Application.DTOs.PersonDto'.
+2026-06-09 16:13:14.704 +05:30 [INF] Executed action Neo4jGraphCrudApi.API.Controllers.PersonsController.GetById (Neo4jGraphCrudApi.API) in 24.6352ms
+2026-06-09 16:13:14.705 +05:30 [INF] Executed endpoint 'Neo4jGraphCrudApi.API.Controllers.PersonsController.GetById (Neo4jGraphCrudApi.API)'
+2026-06-09 16:13:14.706 +05:30 [INF] HTTP GET /api/Persons/f70b335a-a6df-4879-9426-9fb97d2d7d95 responded 200 in 33 ms
+2026-06-09 16:13:14.709 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7265/api/Persons/f70b335a-a6df-4879-9426-9fb97d2d7d95 - 200 null application/json; charset=utf-8 56.2147ms
+2026-06-09 16:13:28.310 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7265/api/Persons - null null
+2026-06-09 16:13:28.314 +05:30 [INF] HTTP GET /api/Persons request started
+2026-06-09 16:13:28.316 +05:30 [INF] Executing endpoint 'Neo4jGraphCrudApi.API.Controllers.PersonsController.GetAll (Neo4jGraphCrudApi.API)'
+2026-06-09 16:13:28.320 +05:30 [INF] Route matched with {action = "GetAll", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Neo4jGraphCrudApi.Application.DTOs.PersonDto]]] GetAll() on controller Neo4jGraphCrudApi.API.Controllers.PersonsController (Neo4jGraphCrudApi.API).
+2026-06-09 16:13:28.371 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Neo4jGraphCrudApi.Application.DTOs.PersonDto, Neo4jGraphCrudApi.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-09 16:13:28.374 +05:30 [INF] Executed action Neo4jGraphCrudApi.API.Controllers.PersonsController.GetAll (Neo4jGraphCrudApi.API) in 50.5493ms
+2026-06-09 16:13:28.376 +05:30 [INF] Executed endpoint 'Neo4jGraphCrudApi.API.Controllers.PersonsController.GetAll (Neo4jGraphCrudApi.API)'
+2026-06-09 16:13:28.377 +05:30 [INF] HTTP GET /api/Persons responded 200 in 63 ms
+2026-06-09 16:13:28.379 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7265/api/Persons - 200 null application/json; charset=utf-8 69.2749ms
+2026-06-09 16:13:50.384 +05:30 [INF] Request starting HTTP/2 PUT https://localhost:7265/api/Persons/f70b335a-a6df-4879-9426-9fb97d2d7d95 - application/json 52
+2026-06-09 16:13:50.388 +05:30 [INF] CORS policy execution failed.
+2026-06-09 16:13:50.389 +05:30 [INF] Request origin https://localhost:7265 does not have permission to access the resource.
+2026-06-09 16:13:50.390 +05:30 [INF] HTTP PUT /api/Persons/f70b335a-a6df-4879-9426-9fb97d2d7d95 request started
+2026-06-09 16:13:50.392 +05:30 [INF] Executing endpoint 'Neo4jGraphCrudApi.API.Controllers.PersonsController.Update (Neo4jGraphCrudApi.API)'
+2026-06-09 16:13:50.396 +05:30 [INF] Route matched with {action = "Update", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(System.String, Neo4jGraphCrudApi.Application.DTOs.PersonDto) on controller Neo4jGraphCrudApi.API.Controllers.PersonsController (Neo4jGraphCrudApi.API).
+2026-06-09 16:13:50.402 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2026-06-09 16:13:50.404 +05:30 [INF] Executed action Neo4jGraphCrudApi.API.Controllers.PersonsController.Update (Neo4jGraphCrudApi.API) in 5.0815ms
+2026-06-09 16:13:50.406 +05:30 [INF] Executed endpoint 'Neo4jGraphCrudApi.API.Controllers.PersonsController.Update (Neo4jGraphCrudApi.API)'
+2026-06-09 16:13:50.407 +05:30 [INF] HTTP PUT /api/Persons/f70b335a-a6df-4879-9426-9fb97d2d7d95 responded 400 in 16 ms
+2026-06-09 16:13:50.408 +05:30 [INF] Request finished HTTP/2 PUT https://localhost:7265/api/Persons/f70b335a-a6df-4879-9426-9fb97d2d7d95 - 400 null text/plain; charset=utf-8 24.6301ms
+2026-06-09 16:14:05.159 +05:30 [INF] Request starting HTTP/2 PUT https://localhost:7265/api/Persons/f70b335a-a6df-4879-9426-9fb97d2d7d95 - application/json 82
+2026-06-09 16:14:05.162 +05:30 [INF] CORS policy execution failed.
+2026-06-09 16:14:05.163 +05:30 [INF] Request origin https://localhost:7265 does not have permission to access the resource.
+2026-06-09 16:14:05.165 +05:30 [INF] HTTP PUT /api/Persons/f70b335a-a6df-4879-9426-9fb97d2d7d95 request started
+2026-06-09 16:14:05.167 +05:30 [INF] Executing endpoint 'Neo4jGraphCrudApi.API.Controllers.PersonsController.Update (Neo4jGraphCrudApi.API)'
+2026-06-09 16:14:05.168 +05:30 [INF] Route matched with {action = "Update", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(System.String, Neo4jGraphCrudApi.Application.DTOs.PersonDto) on controller Neo4jGraphCrudApi.API.Controllers.PersonsController (Neo4jGraphCrudApi.API).
+2026-06-09 16:14:05.255 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2026-06-09 16:14:05.256 +05:30 [INF] Executed action Neo4jGraphCrudApi.API.Controllers.PersonsController.Update (Neo4jGraphCrudApi.API) in 86.2772ms
+2026-06-09 16:14:05.258 +05:30 [INF] Executed endpoint 'Neo4jGraphCrudApi.API.Controllers.PersonsController.Update (Neo4jGraphCrudApi.API)'
+2026-06-09 16:14:05.259 +05:30 [INF] HTTP PUT /api/Persons/f70b335a-a6df-4879-9426-9fb97d2d7d95 responded 204 in 94 ms
+2026-06-09 16:14:05.261 +05:30 [INF] Request finished HTTP/2 PUT https://localhost:7265/api/Persons/f70b335a-a6df-4879-9426-9fb97d2d7d95 - 204 null null 102.0273ms
+2026-06-09 16:14:32.605 +05:30 [INF] Request starting HTTP/2 DELETE https://localhost:7265/api/Persons/f70b335a-a6df-4879-9426-9fb97d2d7d95 - null null
+2026-06-09 16:14:32.614 +05:30 [INF] CORS policy execution failed.
+2026-06-09 16:14:32.616 +05:30 [INF] Request origin https://localhost:7265 does not have permission to access the resource.
+2026-06-09 16:14:32.617 +05:30 [INF] HTTP DELETE /api/Persons/f70b335a-a6df-4879-9426-9fb97d2d7d95 request started
+2026-06-09 16:14:32.618 +05:30 [INF] Executing endpoint 'Neo4jGraphCrudApi.API.Controllers.PersonsController.Delete (Neo4jGraphCrudApi.API)'
+2026-06-09 16:14:32.622 +05:30 [INF] Route matched with {action = "Delete", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(System.String) on controller Neo4jGraphCrudApi.API.Controllers.PersonsController (Neo4jGraphCrudApi.API).
+2026-06-09 16:14:32.734 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2026-06-09 16:14:32.736 +05:30 [INF] Executed action Neo4jGraphCrudApi.API.Controllers.PersonsController.Delete (Neo4jGraphCrudApi.API) in 110.2187ms
+2026-06-09 16:14:32.738 +05:30 [INF] Executed endpoint 'Neo4jGraphCrudApi.API.Controllers.PersonsController.Delete (Neo4jGraphCrudApi.API)'
+2026-06-09 16:14:32.740 +05:30 [INF] HTTP DELETE /api/Persons/f70b335a-a6df-4879-9426-9fb97d2d7d95 responded 204 in 122 ms
+2026-06-09 16:14:32.743 +05:30 [INF] Request finished HTTP/2 DELETE https://localhost:7265/api/Persons/f70b335a-a6df-4879-9426-9fb97d2d7d95 - 204 null null 140.6615ms
+2026-06-09 16:14:49.475 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7265/api/Persons - application/json 36
+2026-06-09 16:14:49.479 +05:30 [INF] CORS policy execution failed.
+2026-06-09 16:14:49.480 +05:30 [INF] Request origin https://localhost:7265 does not have permission to access the resource.
+2026-06-09 16:14:49.481 +05:30 [INF] HTTP POST /api/Persons request started
+2026-06-09 16:14:49.483 +05:30 [INF] Executing endpoint 'Neo4jGraphCrudApi.API.Controllers.PersonsController.Create (Neo4jGraphCrudApi.API)'
+2026-06-09 16:14:49.484 +05:30 [INF] Route matched with {action = "Create", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(Neo4jGraphCrudApi.Application.DTOs.CreatePersonDto) on controller Neo4jGraphCrudApi.API.Controllers.PersonsController (Neo4jGraphCrudApi.API).
+2026-06-09 16:14:49.506 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2026-06-09 16:14:49.508 +05:30 [INF] Executed action Neo4jGraphCrudApi.API.Controllers.PersonsController.Create (Neo4jGraphCrudApi.API) in 21.9367ms
+2026-06-09 16:14:49.510 +05:30 [INF] Executed endpoint 'Neo4jGraphCrudApi.API.Controllers.PersonsController.Create (Neo4jGraphCrudApi.API)'
+2026-06-09 16:14:49.511 +05:30 [INF] HTTP POST /api/Persons responded 204 in 29 ms
+2026-06-09 16:14:49.513 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7265/api/Persons - 204 null null 38.4895ms
+2026-06-09 16:15:02.908 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7265/api/Persons - application/json 34
+2026-06-09 16:15:02.912 +05:30 [INF] CORS policy execution failed.
+2026-06-09 16:15:02.912 +05:30 [INF] Request origin https://localhost:7265 does not have permission to access the resource.
+2026-06-09 16:15:02.914 +05:30 [INF] HTTP POST /api/Persons request started
+2026-06-09 16:15:02.915 +05:30 [INF] Executing endpoint 'Neo4jGraphCrudApi.API.Controllers.PersonsController.Create (Neo4jGraphCrudApi.API)'
+2026-06-09 16:15:02.916 +05:30 [INF] Route matched with {action = "Create", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(Neo4jGraphCrudApi.Application.DTOs.CreatePersonDto) on controller Neo4jGraphCrudApi.API.Controllers.PersonsController (Neo4jGraphCrudApi.API).
+2026-06-09 16:15:02.937 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2026-06-09 16:15:02.939 +05:30 [INF] Executed action Neo4jGraphCrudApi.API.Controllers.PersonsController.Create (Neo4jGraphCrudApi.API) in 20.3109ms
+2026-06-09 16:15:02.941 +05:30 [INF] Executed endpoint 'Neo4jGraphCrudApi.API.Controllers.PersonsController.Create (Neo4jGraphCrudApi.API)'
+2026-06-09 16:15:02.942 +05:30 [INF] HTTP POST /api/Persons responded 204 in 28 ms
+2026-06-09 16:15:02.944 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7265/api/Persons - 204 null null 35.8185ms
+2026-06-09 16:16:41.052 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7265/api/Persons - application/json 33
+2026-06-09 16:16:41.065 +05:30 [INF] CORS policy execution failed.
+2026-06-09 16:16:41.067 +05:30 [INF] Request origin https://localhost:7265 does not have permission to access the resource.
+2026-06-09 16:16:41.068 +05:30 [INF] HTTP POST /api/Persons request started
+2026-06-09 16:16:41.070 +05:30 [INF] Executing endpoint 'Neo4jGraphCrudApi.API.Controllers.PersonsController.Create (Neo4jGraphCrudApi.API)'
+2026-06-09 16:16:41.071 +05:30 [INF] Route matched with {action = "Create", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(Neo4jGraphCrudApi.Application.DTOs.CreatePersonDto) on controller Neo4jGraphCrudApi.API.Controllers.PersonsController (Neo4jGraphCrudApi.API).
+2026-06-09 16:16:41.092 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2026-06-09 16:16:41.093 +05:30 [INF] Executed action Neo4jGraphCrudApi.API.Controllers.PersonsController.Create (Neo4jGraphCrudApi.API) in 18.726ms
+2026-06-09 16:16:41.094 +05:30 [INF] Executed endpoint 'Neo4jGraphCrudApi.API.Controllers.PersonsController.Create (Neo4jGraphCrudApi.API)'
+2026-06-09 16:16:41.095 +05:30 [INF] HTTP POST /api/Persons responded 204 in 27 ms
+2026-06-09 16:16:41.098 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7265/api/Persons - 204 null null 45.8105ms
